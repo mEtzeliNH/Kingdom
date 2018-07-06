@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Kingdom</string>
+    <string name="title_activity_game">Map</string>
+    <string name="continue_game">Continue</string>
+    <string name="new_game">New Game</string>
+    <string name="exit_game">Exit Game</string>
+
+    <string name="food_per_turn_label">Food per Turn:</string>
+    <string name="total_food_label">Total Food:</string>
+    <string name="total_villages_label">Total Villages:</string>
+    <string name="total_soldiers_label">Total Soldiers:</string>
+
+    <string name="left_action_increase_food_per_turn">Build Farm</string>
+    <string name="right_action_increase_villages">Build Village</string>
+    <string name="left_action_increase_total_food">Harvest Food</string>
+    <string name="right_action_increase_total_soldiers">Train Soldiers</string>
+    <string name="switch_actions">Simulate Map Click</string>
+
+    <string name="initial_food_per_turn">0</string>
+    <string name="initial_total_food">0</string>
+    <string name="initial_total_villages">0</string>
+    <string name="initial_total_soldiers">0</string>
+
+    <string name="save_file_name">game_file.txt</string>
+
+    <string name="font_size">20dp</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMapBackground"
+    tools:context=".fragments.GameStateFragment">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/food_per_turn_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="@string/food_per_turn_label"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/food_per_turn_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="@string/initial_food_per_turn"/>
+
+        <TextView
+            android:id="@+id/total_food_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="@string/total_food_label"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/total_food_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="@string/initial_total_food"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/total_villages_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="@string/total_villages_label"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/total_villages_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="@string/initial_total_villages"/>
+
+        <TextView
+            android:id="@+id/total_soldiers_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="@string/total_soldiers_label"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/total_soldiers_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="@string/initial_total_soldiers"/>
+    </TableRow>
+
+</TableLayout>

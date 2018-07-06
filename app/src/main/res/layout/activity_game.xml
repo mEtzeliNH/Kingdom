@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.GameActivity">
+
+    <FrameLayout
+        android:id="@+id/game_state_fragment"
+        android:name="com.example.michael.kingdom.fragments.GameStateFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/game_screen_fragment"
+        android:name="com.example.michael.kingdom.fragments.GameScreenFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"/>
+
+    <FrameLayout
+        android:id="@+id/game_buttons_fragment"
+        android:name="com.example.michael.kingdom.fragments.GameButtonsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
